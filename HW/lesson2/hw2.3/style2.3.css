@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #556B4F;
+    margin: 0;
+}
+
+div {
+    padding: 20px;
+    border-radius: 10px;
+    width: 260px;
+    background-color: #D2E3C9;
+    display: flex;
+    flex-direction: column;
+}
+div:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease;
+}
+
+div h2 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+div p {
+    margin: 5px 0;
+    font-size: 16px;
+}
